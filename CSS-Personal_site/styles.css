@@ -1,0 +1,90 @@
+/*********************TAG SELECTOR**************/
+a:link {
+    color:#6f4a8e;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: darkblue;
+  }
+
+  /* selected link */
+  a:active {
+    color: green;
+  }
+body {
+  background-color: #fecb89;
+  text-decoration: none;
+}
+h1 {
+  text-shadow: 2px 2px #6f4a8e;
+  color:#810000;
+}
+
+h3 {
+    text-shadow: 2px 2px #e4e3e3;
+  color:#810000
+}
+hr{
+  box-shadow: -1px 8px 5px #810000;
+  background-color: #810000;
+  color: #810000 1px;
+  height: 2px;
+}
+
+/*********************CLASS SELECTOR************/
+.BotL{
+  box-shadow: 8px -4px 5px #810000;
+}
+.jm{
+  height:50px;
+  width: 90px;
+  margin-bottom: -15px;
+
+  box-shadow: -8px 8px 5px #810000;
+}
+.Tj-Tit{
+  display: inline-block;
+  background-color: white;
+  color:red;
+
+}
+.tj{
+
+
+  height:50px;
+  width: 90px;
+  margin-right: 800px;
+  margin-top: -15px;
+  box-shadow: -8px 8px 5px #810000;
+
+}
+.Tj-P{
+  margin-top: 0px;
+  margin-left: 1000px;
+  position: fixed;
+}
+.p{
+  background-color: #fecb89;
+  border-radius: 12px;
+}
+.shadowbox{
+  width:auto;
+  box-shadow: -8px 8px 5px #810000;
+ padding: 8px 12px;
+ font-family: 'Oxygen', sans-serif;
+}
+.pro{
+  box-shadow: -8px 8px 5px #810000;
+}
+.o{
+box-shadow: -8px -8px 5px #810000;
+border-radius: 12px;
+font-family: 'Cormorant Garamond', serif;
+}
